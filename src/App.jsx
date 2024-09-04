@@ -1,17 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import Blogs from './Components/Blogs'
-import TheEdgeLayout from './Components/TheEdgeLayout'
 
+import TheEdgeLayout from './Components/TheEdgeLayout'
+import BlogsLayout from './Components/BlogsLayout'
+import './app.css'
+import Team from './Components/Team'
 function App() {
  
 
   return (
-    <>
-     <Blogs></Blogs>
-     <TheEdgeLayout></TheEdgeLayout>
+    <> <div>
+       <BlogsLayout></BlogsLayout>
+       <TheEdgeLayout></TheEdgeLayout>
+       <Team></Team>
+    </div>
+    
     </>
   )
 }
