@@ -4,9 +4,10 @@ import BotArmy from './BotArmy'
 import MarketingGlossary from './MarketingGlossary'
 import Button from './Button'
 
+
 const TheEdgeLayout = () => {
   return (
-    <div className='mx-5 mt-32 mb-32 '>
+    <div className='mx-5 mb-32 '>
         <TheEdge1></TheEdge1>
         <BotArmy></BotArmy>
         <MarketingGlossary></MarketingGlossary>

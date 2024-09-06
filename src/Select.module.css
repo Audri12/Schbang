@@ -1,0 +1,5 @@
+/* Scoped ::selection for the Team component */
+::selection {
+  background-color: #00FFAA;
+  color: black;
+}

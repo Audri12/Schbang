@@ -1,7 +1,8 @@
 
 import TheEdgeLayout from './Components/TheEdgeLayout'
 import BlogsLayout from './Components/BlogsLayout'
-import './app.css'
+
+import './App.css'
 import Team from './Components/Team'
 function App() {
  

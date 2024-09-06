@@ -1,4 +1,7 @@
+
 import React, { useEffect, useState } from 'react'
+import '../Select.module.css'
+
 
 const Team = () => {
     const [cards,setCards]=useState([]);
@@ -13,23 +16,25 @@ const Team = () => {
     },[])
 
   return (
-    <div className='container mx-auto'>
+    <div className='lime container mx-auto '>
         <div className='flex items-center justify-center'>
-        <div className='text-5xl font-bold mb-8'>
-        Our Team
+        <div className='text-5xl font-bold p-[95px]'>
+        <p className='font-sora'>Our Team</p>
+        
         </div>
         </div>
         
-        <div className='grid  gap-8 row-gap-5  grid-cols-1  md:grid-cols-2 lg:grid-cols-3 mx-5 '>
+        <div className='py-128px]'>
+        <div className='grid  gap-2 gap-y-16 row-gap-5  grid-cols-1  md:grid-cols-2 lg:grid-cols-3 mx-5  p-[95px] '>
         {
         cards.map((card)=>(
           <div>
             <div key={card.id}>
-              <div className='w-full  mx-auto'>
-                <img src={card.image} className='object-cover w-full max-h-max rounded-lg shadow-lg'></img>
+              <div className='w-full  '>
+                <img src={card.image} className='object-cover w-[403.40625px] h-[484px] rounded-lg shadow-lg'></img>
              
-          <h1 className='text-lg'>{card.name}</h1>
-          <p>{card.designation}</p>
+          <h1 className='font-sora mt-7 font-bold text-2xl'>{card.name}</h1>
+          <p className='text-sm font-sora mt-[5px]'>{card.designation}</p>
           
           </div>
           </div>
@@ -39,8 +44,8 @@ const Team = () => {
 
         }
         </div>
+        </div>
     </div>
   )
 }
-
-export default Team
+export default Team;
