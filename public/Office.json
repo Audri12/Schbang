@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "Location": "Mumbai",
+        "address": "139, Oxford Tower, Unit No. 901, 8TH Floor, Kodihalli, Bangalore - 560008",
+        "email": "bd@schbang.com", 
+        "image": "https://cdn.prod.website-files.com/64081b3f2fda69c80b5566e5/647c249471352a3cd3798c9e_1%20(Large)-xxx-p-1080.webp"
+      },
+      
+    
+      {
+        "id": 2,
+        "Location": "Mumbai",
+        "address": "139, Oxford Tower, Unit No. 901, 8TH Floor, Kodihalli, Bangalore - 560008",
+        "email": "bd@schbang.com", 
+        "image": "https://cdn.prod.website-files.com/64081b3f2fda69c80b5566e5/647c249471352a3cd3798c9e_1%20(Large)-xxx-p-1080.webp"
+      },
+      {
+        "id": 3,
+        "Location": "Mumbai",
+        "address": "139, Oxford Tower, Unit No. 901, 8TH Floor, Kodihalli, Bangalore - 560008",
+        "email": "bd@schbang.com", 
+        "image": "https://cdn.prod.website-files.com/64081b3f2fda69c80b5566e5/647c249471352a3cd3798c9e_1%20(Large)-xxx-p-1080.webp"
+      },
+      {
+        "id": 4,
+        "Location": "Mumbai",
+        "address": "139, Oxford Tower, Unit No. 901, 8TH Floor, Kodihalli, Bangalore - 560008",
+        "email": "bd@schbang.com", 
+        "image": "https://cdn.prod.website-files.com/64081b3f2fda69c80b5566e5/647c249471352a3cd3798c9e_1%20(Large)-xxx-p-1080.webp"
+      },
+      {
+        "id": 5,
+        "Location": "Mumbai",
+        "address": "139, Oxford Tower, Unit No. 901, 8TH Floor, Kodihalli, Bangalore - 560008",
+        "email": "bd@schbang.com", 
+        "image": "https://cdn.prod.website-files.com/64081b3f2fda69c80b5566e5/647c249471352a3cd3798c9e_1%20(Large)-xxx-p-1080.webp"
+      }
+     
+      
+]
