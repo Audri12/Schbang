@@ -4,6 +4,7 @@ import BlogsLayout from './Components/BlogsLayout'
 
 import './App.css'
 import Team from './Components/Team'
+import ContactUs from './Components/ContactUs'
 function App() {
  
 
@@ -12,6 +13,7 @@ function App() {
        <BlogsLayout></BlogsLayout>
        <TheEdgeLayout></TheEdgeLayout>
        <Team></Team>
+       <ContactUs></ContactUs>
     </div>
     
     </>
