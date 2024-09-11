@@ -5,6 +5,11 @@ import BlogsLayout from './Components/BlogsLayout'
 import './App.css'
 import Team from './Components/Team'
 import VideoSection from './Components/VideoSection'
+import SchbangInTheNews from './Components/About/SchbangInTheNews'
+import ContactUs from './Components/ContactUs'
+import CSR from './Components/CSR'
+import CSR2 from './Components/CSR2'
+import InsideBlog from './InsideBlog'
 function App() {
  
 
@@ -13,9 +18,11 @@ function App() {
        <BlogsLayout></BlogsLayout>
        <TheEdgeLayout></TheEdgeLayout>
        <Team></Team>
-       <div className='w-full'>
        <VideoSection></VideoSection>
-       </div>
+       <SchbangInTheNews></SchbangInTheNews>
+       <ContactUs></ContactUs>
+      <InsideBlog></InsideBlog>
+       {/* <CSR2></CSR2> */}
     </div>
     
     </>

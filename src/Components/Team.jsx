@@ -16,16 +16,16 @@ const Team = () => {
     },[])
 
   return (
-    <div className='lime container mx-auto '>
-        <div className='flex items-center justify-center'>
-        <div className='text-5xl font-bold p-[95px]'>
+    <div className='container mx-auto max-w-[1400px] p-24'>
+        <div className='flex items-center justify-center '>
+        <div className='text-5xl font-bold py-[85px]'>
         <p className='font-sora'>Our Team</p>
         
         </div>
         </div>
         
-        <div className='py-128px]'>
-        <div className='grid  gap-2 gap-y-16 row-gap-5  grid-cols-1  md:grid-cols-2 lg:grid-cols-3 mx-5  p-[95px] '>
+        <div className='py-[128px]'>
+        <div className='grid  gap-5 gap-y-16 row-gap-5  grid-cols-1  md:grid-cols-2 lg:grid-cols-3  '>
         {
         cards.map((card)=>(
           <div>
