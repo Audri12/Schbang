@@ -10,19 +10,21 @@ import ContactUs from './Components/ContactUs'
 import CSR from './Components/CSR'
 import CSR2 from './Components/CSR2'
 import InsideBlog from './InsideBlog'
+import HowWeWorks from './Components/HowWeWork/HowWeWorks'
 function App() {
  
 
   return (
     <> <div>
-       <BlogsLayout></BlogsLayout>
+       {/* <BlogsLayout></BlogsLayout>
        <TheEdgeLayout></TheEdgeLayout>
        <Team></Team>
        <VideoSection></VideoSection>
        <SchbangInTheNews></SchbangInTheNews>
        <ContactUs></ContactUs>
-      <InsideBlog></InsideBlog>
+      <InsideBlog></InsideBlog> */}
        {/* <CSR2></CSR2> */}
+       <HowWeWorks></HowWeWorks>
     </div>
     
     </>
